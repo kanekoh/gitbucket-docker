@@ -13,7 +13,6 @@ RUN chmod g=u /opt/gitbucket.war && \
 
 VOLUME $GITBUCKET_HOME
 
-
 # Port for web page
 EXPOSE 8080
 # Port for SSH access to git repository (Optional)
